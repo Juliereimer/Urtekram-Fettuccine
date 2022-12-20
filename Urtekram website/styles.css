@@ -1,0 +1,650 @@
+/*----HEADER OG NAV----*/
+
+header{
+    background-color: #aaad8e;
+    width: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    height: 120px;
+    display: flex;
+    justify-content: space-around;
+
+}
+
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+
+nav a {
+    text-decoration: none;
+    color: #fefdfa;
+    font-weight: 50;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+nav a:hover{
+    background-color: #e0dac6;
+}
+
+
+/*----FORSIDE----*/
+
+#logobeige{
+    position: absolute;
+    left: 42%;
+    top: 18%;
+}
+
+#pastaforside{
+   padding-left: 115px;
+   padding-top: 20px;
+   padding-bottom: 20px;
+   width: 1200px;
+}
+
+
+.main-image h2{
+    position: absolute;
+    color: white;
+    left: 32%;
+    top: 68%;
+    font-size: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 500;
+}
+
+#knap{
+    position: absolute;
+    color: white;
+    left: 40%;
+    top: 85%;
+    font-size: 17px;
+    transition: 0.3s;
+}
+
+#knap:hover {
+    background-color: white;
+    color: #aaad8e;
+    transform: scale(1.1);
+}
+
+.cardscontainer div{
+    text-align: center;
+    margin-top: 25px;
+
+}
+
+.cardscontainer div h3{
+    font-weight: 50;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 23px;
+}
+
+.cardscontainer{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    height: 500px;
+    background-color: #e0dac6;
+    margin-bottom: 38px;
+}
+
+.cardscontainer a{
+    text-decoration: none;
+    color: black;
+}
+
+
+.main-image button {
+    background: #aaad8e;
+    color: white;
+    border: 1px ;
+    border-radius: 30px;
+    padding: 15px 17px;
+    cursor: pointer;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2px;
+    transition: all .2s ease-in-out;
+  }
+
+footer{
+    height: 30px;
+}
+
+#opskriftertekst{
+    padding-left: 90px;
+}
+
+#pastaret1{
+    padding-left: 5px;
+}
+
+#pastaret2{
+    padding-right: 100px;
+}
+
+#onepottekst{
+    padding-right: 100px;
+}
+
+
+
+/*----DROPDOWN I NAV----*/
+
+.dropdown {
+    float: left;
+  }
+  
+  .dropdown .dropbtn {
+    font-size: 20px;  
+    border: none;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #aaad8e;
+  }
+
+  .dropbtn{
+    padding-right: 35px;
+  }
+  
+  .navbar a:hover, .dropdown:hover .dropbtn {
+    cursor: pointer;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    min-width: 160px;
+  }
+  
+  .dropdown-content a {
+    color: white;
+    display: block;
+    padding: 15px 16px;
+    text-align: left;
+  }
+  
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+    background-color: #aaad8e;
+  }
+  
+
+/*----KONKURRENCE-SIDE---*/
+
+
+.mainkonkurrence h1{
+    font-size: 45px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 50;
+    padding: 60px 0px 10px 0;
+    line-height: 70px;
+}
+
+.mainkonkurrence{
+    text-align: center;
+    background-color: #e0dac6;
+    margin-top: -17px;
+}
+
+.mainkonkurrence p{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    line-height: 40px;
+    font-size: 22px;
+    font-weight: 50;
+}
+
+.tekstkonkurrence{
+    padding: 30px 0 55px 0;
+}
+
+#sidstetekst{
+    padding-top: 20px;
+}
+
+/*----FETTUCCINE MED LAKS SIDE---*/
+
+.overskriftlaks{
+    text-align: center;
+    font-size: 45px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 50;
+    padding: 60px 0px 0px 0;
+    line-height: 70px;
+}
+
+
+hr{
+    border: 1px solid black;
+    width: 80%;
+}
+
+.container{
+    display: flex;
+    align-items:center;
+    justify-content: space-evenly;
+    padding: 3% 12% 5% 12%;
+}
+
+
+
+.img-col{
+    margin: 0 30px 0 200px;
+}
+
+.container h3{
+    font-size: 35px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 50;
+    line-height: 45px;
+}
+
+/*----FETTUCCINE MED LAKS SIDE - KOLONNE NR 2---*/
+
+.container2{
+    display: flex;
+    align-items:flex-start;
+    justify-content: center;
+    padding-top: 3%;
+    background-color: #e0dac6;
+    height: 650px;
+}
+
+.text-col3{
+    margin: 0 30px 0 200px;
+}
+
+.container2 h3{
+    font-size: 30px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 50;
+    line-height: 50px;
+}
+
+
+
+/*----ONE POT MED CHORIZO KOLONNE 1---*/
+
+.overskriftonepot{
+    text-align: center;
+    font-size: 45px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 50;
+    padding: 60px 0px 0px 0;
+    line-height: 70px;
+}
+
+
+hr{
+    border: 1px solid black;
+    width: 80%;
+}
+
+.container1{
+    display: flex;
+    align-items:center;
+    justify-content: space-evenly;
+    padding: 3% 12% 5% 12%;
+}
+
+
+
+.container1 h3{
+    font-size: 35px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 50;
+    line-height: 45px;
+    width: 500px;
+
+}
+
+/*----ONE POT MED CHORIZO KOLONNE 2---*/
+
+
+.container3{
+    display: flex;
+    align-items:flex-start;
+    justify-content: center;
+    padding-top: 3%;
+    background-color: #e0dac6;
+    height: 900px;
+    margin-bottom: 38px;
+
+}
+
+.text-col5{
+    margin: 0 30px 0 200px;
+}
+
+.container3 h3{
+    font-size: 30px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 50;
+    line-height: 50px;
+}
+
+/*----OM FETTUCCINE SIDE KOLONNE 1---*/
+
+.containerfettuccine img{
+    width: 550px;
+    height: auto;
+    margin-left: -50px;
+}
+
+.containerfettuccine{
+    display: flex;
+    justify-content: center;
+    gap: 5%;
+    padding-top: 30px;
+}
+
+.containerfettuccine h2{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding-right: 40px;
+    font-weight: 400;
+    text-align: center;
+}
+
+.containerfettuccine p{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 50;
+    font-size: 20px;
+    line-height: 30px;
+    padding-top: 20px;
+}
+
+.tekstfettuccine{
+    background-color: #e0dac6;
+    padding: 55px 90px 55px 90px;
+    margin-top: 30px;
+    margin-right: -40px;
+}
+
+/*----OM FETTUCCINE SIDE KOLONNE 2---*/
+
+.container2om{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 100px 130px 30px 130px;
+    
+}
+
+.næringsindhold{
+    background-color: #aaad8e;
+    width: 360px;
+    height: 500px;
+}
+
+
+.økologi{
+    background-color: #e0dac6;
+    width: 360px;
+    height: 500px;
+}
+
+
+.økologi p{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+    line-height: 45px;
+    text-align: start;
+    padding-left: 12%;
+    padding-top: 10px;
+    color: black;
+    font-weight: 50;
+}
+
+
+.vidsteduat{
+    background-color: #aaad8e;
+    width: 360px;
+    height: 500px;
+}
+
+.vidsteduat p{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+    line-height: 30px;
+    text-align: start;
+    padding-top: 40px;
+    font-weight: 50;
+    padding-left: 12%;
+}
+
+.container2om h2{
+    text-align: center;
+    color: black;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 400;
+    padding-top: 10px;
+}
+
+.container2om div{
+    border-radius: 20px;
+}
+
+#indhold{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+    font-weight: 50;
+    line-height: 30px;
+    padding-top: 40px;
+    padding-left: 12%;
+}
+
+
+
+/*----RESPONSIVE MOBIL FORSIDE----*/
+@media screen and (max-width:768px){
+
+.headerlinks{
+    display: none;
+  }
+
+
+#pastaforside{
+    width: 100%;
+    height: 400px;
+    align-items: center;
+    padding-left: 0%;
+  }
+  
+.main-image{
+    text-align: center;
+}
+
+.main-image h2{
+    font-size: 22px;
+    margin-top: -70px;
+    margin-left: -12%;
+}
+
+.cardscontainer{
+    flex-direction: column;
+    align-items: center;  
+    height: 1300px;
+  }
+
+#opskriftertekst{
+    padding-left: 4%;
+}
+
+#pastaret2, #onepottekst{
+    padding-right: 4%;
+}
+
+.main-image button{
+    margin-top: -23%;
+    margin-left: -18%;
+    padding: 10px;
+}
+
+#logobeige{
+    margin-top: -5%;
+    margin-left: -12%;
+}
+
+
+/*----RESPONSIVE MOBIL KONKURRENCE SIDE----*/
+
+#pastakonkurrence{
+    width: 100%;
+    height: 400px;
+    align-items: center;
+    padding-left: 0%;
+}
+
+.tekstkonkurrence{
+    width: 100%;
+}
+
+
+/*----RESPONSIVE MOBIL ONE POT----*/
+.container1{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.container1 h3{
+    padding-left: 12%;
+}
+
+.container3{
+    display: flex;
+    flex-wrap: wrap;
+    height: 1600px;
+}
+
+.text-col5{
+    margin-left: 125px;
+}
+
+.img-col1{
+    margin-right: 25px;
+}
+
+
+/*----RESPONSIVE MOBIL FETTUCCINE LAKS SIDE----*/
+
+.container{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.img-col{
+    margin-right: 220px;
+}
+
+.container2{
+    display: flex;
+    flex-wrap: wrap;
+    height: 1600px;
+}
+
+.text-col3{
+    margin-left: 125px;
+}
+
+
+/*----RESPONSIVE MOBIL OM FETTUCCINE SIDE----*/
+
+.containerfettuccine{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.billedefettuccine{
+    margin-left: 80px;
+}
+
+.tekstfettuccine{
+    margin-right: 10px;
+}
+
+.container2om{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+
+
+
+
+
+
+/* Billeder skal fylde 100*% i deres container: 
+Logo og burger */
+#logo > img{
+    width:100%;
+}
+
+#navMobile > a > img{
+    width:100%; 
+}
+}
+
+/* RESPONSIVE: */
+/* MOBIL: */
+@media screen and (max-width:768px){
+    /*Distribuer elementer anderledes:*/
+    header{
+        justify-content:space-between ;
+        padding-left:10px;
+        padding-right:10px;
+    }
+    
+    /* Skjul laptopmenuen. */
+    #navLaptop {
+        display:none; 
+    }
+
+    /* Burgermenuen skal have en bredde */
+    #navMobile{ 
+        width:50px;
+    }
+
+    #logo{ /* Logoet skal være mindre på mobil. */
+        width:80px;
+    }    
+}
+
+/* LAPTOP: */
+@media screen and (min-width: 768px){
+    /* HEADER: LOGO*/
+    #logo {/* Logoet. Er i en div fordi det spiller bedre med flexbox. */
+        width:200px;
+        margin:30px;
+        position:relative;
+        top:70px;
+    }
+
+    /* Skjul mobilmenuen.*/
+    #navMobile{
+        display:none;
+    }
+
+    /* Vis laptopmenuen og samtidig gør den til flex container. */
+    #navLaptop {
+        display:flex; 
+        justify-content:space-around;
+        width:70%;
+        gap:10px;
+    }
+
+    /* Tekstlinks: */
+    nav > a{
+        font-family:Arial, Helvetica, sans-serif;
+        text-transform:uppercase;
+        color:#fefdfa;
+        text-decoration:none;
+        font-size:20px;
+        font-weight:50;
+    }
+}
